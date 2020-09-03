@@ -1,0 +1,38 @@
+<br>
+<mat-form-field class="example-form-field">
+  <input matInput type="text" placeholder="Search Product"  />
+  <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+<br>
+
+
+<table class="table table-borderless">
+<thead class="thead-dark">
+  <tr>
+    <th> <mat-slide-toggle style="font-family: SimSun-ExtB ;" (click)='toggleImage()'>
+      {{showImage?'Hide':'Show'}} Image</mat-slide-toggle></th>
+    <th>Product name</th>
+    <th>Product code </th>
+    <th>Product price </th>
+    <th>Product rating </th>
+  </tr>
+</thead>
+<tbody>
+    <tr *ngFor='let product of filteredProducts'>
+        <td id="images"><img *ngIf='showImage'
+          [src]='product.imageUrl'
+           [title]='product.productName | uppercase'
+           width='150'
+           height='100'>
+       </td>
+        <td ><p (click)='openDialog()'>{{product.productName}}</p></td>
+        <td>{{product.productCode}}</td>
+        <td>{{product.price|currency:'ZAR':'symbol-narrow':'1.2-2' }}</td>
+        <td>{{product.starRating}}</td>
+    </tr>
+</tbody>
+</table>
+
+<router-outlet></router-outlet>

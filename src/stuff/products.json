@@ -1,0 +1,52 @@
+[
+    {
+      "productId": 1,
+      "productName": "Nike AF1 Low Sage ",
+      "productCode": "GDN-0011",
+      "releaseDate": "March 19, 2019",
+      "description": "Leaf rake with 48-inch wooden handle.",
+      "price": 1899.99,
+      "starRating": 3.2,
+      "imageUrl": "assets/images/af1_black.png"
+    },
+    {
+      "productId": 2,
+      "productName": "Puma Cali Sport",
+      "productCode": "GDN-0023",
+      "releaseDate": "March 18, 2019",
+      "description": "15 gallon capacity rolling garden cart",
+      "price": 1699.99,
+      "starRating": 4.2,
+      "imageUrl": "assets/images/cali_sportbw.png"
+    },
+    {
+      "productId": 5,
+      "productName": "Vans Old Skool Platform",
+      "productCode": "TBX-0048",
+      "releaseDate": "May 21, 2019",
+      "description": "Curved claw steel hammer",
+      "price": 799.99,
+      "starRating": 4.8,
+      "imageUrl": "assets/images/vansblack.png"
+    },
+    {
+      "productId": 8,
+      "productName": "Converse All Star Platform",
+      "productCode": "TBX-0022",
+      "releaseDate": "May 15, 2019",
+      "description": "15-inch steel blade hand saw",
+      "price": 1099.00,
+      "starRating": 3.7,
+      "imageUrl": "assets/images/allstar.png"
+    },
+    {
+      "productId": 10,
+      "productName": "Nike Air max 270",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2018",
+      "description": "Standard two-button video game controller",
+      "price": 2599.00,
+      "starRating": 4.6,
+      "imageUrl": "assets/images/nike270.png"
+    }
+  ]
