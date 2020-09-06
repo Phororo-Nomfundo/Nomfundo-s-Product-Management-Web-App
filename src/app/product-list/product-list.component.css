@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    font-family: 'SimSun-ExtB';
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  #pics{
+    width:100px;
+    height:75px;
+  }
+  th{
+      background-color: rgb(53, 53, 53);
+      color: white;
+  }

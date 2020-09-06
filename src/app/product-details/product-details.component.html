@@ -1,9 +1,15 @@
-<h2 mat-dialog-title>Hey Nomfundo</h2>
-<mat-dialog-content>
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+
+ <h2 >{{product.productName}}</h2> 
+<mat-dialog-content  >
+  
+    <h2 mat-dialog-title>{{product.productName}}</h2>
+    <img mat-card-image  src="product.imageUrl" alt="Photo of a Shiba Inu">
+
+  
 </mat-dialog-content>
 <mat-dialog-actions>
   <button mat-button mat-dialog-close>relax</button>
   <button mat-button mat-dialog-close cdkFocusInitial>Next step</button>
 </mat-dialog-actions>
+
 
