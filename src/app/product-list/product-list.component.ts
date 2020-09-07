@@ -43,12 +43,11 @@ export class ProductListComponent implements OnInit {
  constructor(public dialog:MatDialog,private productService: ProductService){};
  
 openDialog(tablerow):void{
-  this.dialog.open(ProductDetailsComponent,{  height: '600px',width:'700px'});
+  this.dialog.open(ProductDetailsComponent,{  height: '600px',width:'700px',data:tablerow});
   
   // this.info=(event.target as HTMLTableDataCellElement).nodeValue;
 
-  let ProductDetails= new ProductDetailsComponent();
-  ProductDetails.gettingProduct(tablerow)
+
 
 }
     
